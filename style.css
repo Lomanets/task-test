@@ -1,0 +1,99 @@
+body {
+    background: #e8f2f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+
+/* Task 1 */
+
+.pop-up {
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    background: #ffffff;
+    width: 30%;
+    height: 260px;
+    padding: 30px;
+    display: none;
+}
+
+.pop-up input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    outline: none;
+    border: 2px solid black;
+    transition: border 0.5s;
+}
+
+.pop-up input:focus {
+    border: 2px solid #e8f2f3;
+}
+
+.firstname {
+    margin-top: 30px;
+}
+
+.email {
+    margin-top: 15px;
+}
+
+.pop-up button, .open {
+    display: block;
+    margin-top: 20px;
+    border: none;
+    background: #e8f2f3;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+
+.pop-up button:hover {
+    background: #c5cecf;
+}
+
+.open {
+    background: #ffffff;
+}
+
+.open:hover {
+    background: #acacac;
+}
+
+.close, .save {
+    transition: transform 0.5s;
+    position: absolute;
+    cursor: pointer;
+}
+
+.close:hover, .save:hover {
+    transform: scale(1.1);
+}
+
+.close {
+    top: 30px;
+    right: 30px;
+}
+
+.save {
+    top: 30px;
+    right: 60px;
+}
+
+
+/* Task 2 */
+
+.v-row-item {
+    width: 200px;
+    text-align: center;
+    margin: 20px 0px;
+    height: 20px;
+    background: #ffffff;
+}

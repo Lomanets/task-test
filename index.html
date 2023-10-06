@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button class="open">Открыть форму</button>
+    <div class="pop-up">
+        <form action="#">
+            <h1>Форма для теста</h1>
+            <input class="firstname" name="firstname" type="text" placeholder="Введите имя" required>
+            <input class="email" name="email" type="email" placeholder="Введите Email" required>
+            <button>Отправить</button>
+        </form>
+        <img class="save" src="./save.png" alt="save">
+        <img class="close" src="./close.png" alt="close">
+    </div>
+    <div class="wrapper">
+        <div class="v-row-item"></div>
+        <div class="v-row-item"></div>
+        <div class="v-row-item"><span class="ui-icon-check">Span с классом</span></div>
+        <div class="v-row-item"><span data-id="20">Span без класса</span></div>
+        <div class="v-row-item"></div>
+        <div class="v-row-item"><span class="ui-icon-check" data-id="20">Span с классом</span></div>
+        <div class="v-row-item"><span class="ui-icon-check">Span с классом</span></div>
+        <div class="v-row-item"><span>Span без класса</span></div>
+        <div class="v-row-item"></div>
+        <div class="v-row-item"><span class="ui-icon-check" data-id="20">Span с классом</span></div>
+    </div>
+    <h2 class="out-divs"></h2>
+    <script defer src="./script.js"></script>
+</body>
+</html>
